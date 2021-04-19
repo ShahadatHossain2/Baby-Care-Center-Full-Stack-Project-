@@ -1,0 +1,16 @@
+.image-style{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.service-container:hover img{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out 0.2s;
+}
+.service-container:hover h3{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out 0.2s;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
